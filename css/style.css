@@ -1,0 +1,196 @@
+.header-class{
+    background-color: rgb(25, 26, 24);
+    border-bottom: 1px solid #f5f5f5;
+     height: 120px;
+     display: flex;
+     width: 100%;
+     top:0px;
+     position: fixed;
+}
+body {
+    width: 100%;
+    margin:0;
+   
+}
+
+.headerlogo {
+    width: 50%;
+}
+
+#logo {
+    width: 200px;
+    height: 68px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.menu {
+   float: right;
+ margin-top: 20px;
+ margin-left: 40px;
+}
+
+.menu li{
+    display: inline;
+     padding: 9px;  
+    
+}
+
+.menu li a {
+    font-family: 'Zilla Slab', serif;
+    color: #f5f5f5;
+    font-size: 24px;  
+    text-decoration: none;
+    
+}
+.menu li a:hover {
+    color: pink;
+}
+
+.menu a{
+margin-right: 0px;
+}
+.glyphicon {
+color: white;
+}
+
+.hero-box {
+  background-image: url("../img/heroimg.jpg");
+height: 460px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top:150px;
+background-attachment: fixed;
+  }
+
+  .hero-box h1{
+    font-size:50px
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Zilla Salib';
+    color: rgb(25, 26, 24);
+    font-size: 20px;
+  }
+
+  .content {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      background-color: white;
+  }
+  .content article{
+      background-color: whitesmoke;
+      margin:30px;
+      flex:1;
+      align-items: center;
+  }
+
+  .content h1 {
+      font-size: 22px;
+      font-family: 'Zilla Slab', serif;
+      color: rgba(0 0 1 1);
+      text-align: center;
+  }
+  .content h3 {
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    color: #333333;
+    text-align: center;
+  }
+  .content img {
+      height: 200px;
+      align-items: center;
+      margin-left: 75px;
+  }
+  .content p {
+      font-size: 14px;
+      text-align: center;
+      color: #333333;
+      font-family: 'Zilla Slab', serif;
+      padding: 11px;
+  }
+  .secondcontent {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .sec1 {
+    margin: 20px;
+    width: 50%;
+  }
+
+  .sec2 {
+    float: right;
+    margin-top: -400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 40%;
+    margin-right: 26px;
+  }
+
+  .sec2 p {
+      border: 1px solid black;
+      border-color:white;
+      background-color:beige;
+      align-items: right;
+      font-family: "Zilla Slab";
+      font-size: 16px;
+      padding: 16px;
+  }
+
+  footer {
+      background-color :grey;
+      width: 100%;
+      height: 100px;
+  }
+  footer blockquote {
+      font-family: 'Zilla Slab';
+      width: 50%;
+      margin-top: 20px;
+  }
+
+  footer p {
+         color: white;
+  }
+
+  .socialicons{
+    float: right;
+    margin-right: 50px;
+    margin-top: -50px;
+ }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+ 
